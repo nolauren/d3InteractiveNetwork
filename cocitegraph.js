@@ -105,7 +105,7 @@ d3.json(file, function(json) {
 
 
   node.append("svg:title")
-    .text(function(d) { return "Citations: "+d.nodeSize; });
+    .text(function(d) { return ""; });
 
   vis.style("opacity", 1e-6)
     .transition()
