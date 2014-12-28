@@ -14,5 +14,5 @@ elist = elist[apply(is.na(elist),1,sum) == 0,]
 
 groupNames = groupcode$GroupName[match(group$GroupCode, groupcode$GroupCode)]
 
-makeMapJSON(edgelist=elist, names=group$Name, tags=groupNames,
+makeMapJSON(edgelist=elist, group=group$GroupCode, names=group$Name, tags=groupNames,
             file="output.json")
