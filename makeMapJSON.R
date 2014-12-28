@@ -1,6 +1,7 @@
 require("igraph")
 require("jsonlite")
 
+
 makeMapJSON = function(gr, edgelist, group, names, tags, sizes, file) {
   if (!missing(gr)) {
     if (!missing(edgelist)) stop("Must supply either gr or edgelist, but not both.")
