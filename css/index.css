@@ -1,0 +1,560 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+@media (min-width: 992px) {
+    body {
+        margin-bottom: 113px; /* make room for footer on >= md */
+    }
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+th {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 small {
+    color: #f5f5f5;
+}
+
+
+span.help_text {
+    font-family: "Helvetica Neue", helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    opacity: .6;
+}
+
+
+.container.content_container {
+    background-image: url(../img/sos.png);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header {
+    display: block;
+    width: 100%;
+}
+
+p a, figcaption a {
+    color: #3C88A8;
+}
+
+p a:visited, figcaption a:visited {
+    color: #A63E85;
+}
+
+figcaption {
+    font-size: .8em;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header_row  {
+    /*background-color: #2f6982;*/
+    background: -webkit-linear-gradient(-20deg, #2f6982, #3c8bad); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-20deg, #2f6982, #3c8bad); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-20deg, #2f6982, #3c8bad); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-20deg, #2f6982, #3c8bad); /* Standard syntax */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ol#header_links {
+    float: right;
+    margin-top: 4em;
+    background-color: transparent;
+}
+
+#header_links a {
+    text-decoration: none;
+    color: white;
+}
+
+#header_links a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+#home_container .well {
+    background-color: #1B3D4B;
+    transition: .5s;
+    opacity: .9;
+}
+
+#home_container .well:hover {
+    transition: .5s;
+    opacity: 1;
+}
+
+#home_container .well, a {
+    color: black;
+    text-decoration: none;
+}
+
+#home_container .well, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#home_container .btn a {
+    color: black;
+}
+
+#home_container .btn a:visited {
+    color: black;
+}
+
+#home_container {
+    margin-top: 10px;
+}
+
+#topic_model_banner h2 {
+    color: silver;
+}
+
+#topic_model_banner p {
+    color: silver;
+}
+
+p#about_tocs {
+    padding-bottom: 10px;
+}
+
+.toc_container {
+    background-image: url(/img/sos.png);
+    border-radius: 8px;
+    margin-top: 1.5em;
+}
+
+/*.toc_container p.toc_intro{
+    padding-bottom: 1.5em;
+}*/
+
+p.byline {
+    padding-bottom: 1.5em;
+    font-style: italic;
+}
+
+.toc_container a.toc_external_link {
+    text-decoration: none;
+    float: left;
+    color: black;
+}
+
+.toc_container a.toc_external_link:visited {
+    color: black;
+}
+
+.toc_container tr:hover {
+    background-color: transparent;
+}
+
+.toc_container .anniv_project_title {
+    background-color: black;
+}
+
+.well#tocs_banner {
+    background-color: rgba(54, 150, 129, .8);
+}
+
+.well#orientation_banner {
+    background-color: rgba(150, 54, 123, .9);
+}
+
+.well#commentaries_banner {
+    background-color: rgba(54, 122, 150, .9);
+}
+
+.well#cover_art_banner {
+    background-image: url(../img/signs-design-color.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.well#more_content_banner {
+    background-color: rgb(198, 121, 139);
+}
+
+.well#credits_banner {
+    background-color: rgb(226, 216, 127);
+}
+.well#cit_network_banner {
+    background-image: url(/img/cocitation-background.jpg);
+}
+
+.toc_sidebar_column {
+    padding-left: 0px;
+    padding-top: 150px;
+}
+
+.panel-heading.si_box, .panel-body.si_box {
+    background-color: rgba(46,105,130,.3);
+}
+
+.panel-heading.symp_box, .panel-body.symp_box {
+    background-color: rgba(127,186,141,.5);
+}
+
+.panel-heading.cluster_box, .panel-body.cluster_box {
+    background-color: rgba(207,195,66,.3)
+}
+
+.panel-body.si_box, .panel-body.symp_box, .panel-body.cluster_box, .panel-body.tm_box {
+    font-size: .85em;
+}
+
+.panel-heading.pic_row_heading {
+    background-color: transparent;
+}
+
+.panel.pic_row_panel {
+    background-color: transparent;
+    border: none;
+}
+
+.panel-body a {
+    text-decoration: underline;
+}
+
+.panel-heading.tm_box, .panel-body.tm_box {
+    background-color: rgba(129,32,97,.3)
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+    border: none;
+    padding-top: 0px;
+}
+
+.toc_table {
+    margin-top: 2em;
+}
+
+#intersectionalities_toc_sidebar .panel {
+    margin-top: .75em;
+    margin-bootom: .75em;
+}
+
+a.tm_link {
+    text-decoration: underline;
+}
+
+.toc_tab {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.no_pad_col {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+li.toc_tab > a {
+    height: 90px;
+    line-height: 60px;
+    background-color: rgba(46,105,130,.1);
+    border-radius: 0px;
+}
+
+li.toc_tab > a > span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+li.active.toc_tab > a > span {
+    color: white;
+}
+
+li.active.toc_tab > a {
+    background-color: rgba(46,105,130,.9);
+}
+
+li.active.toc_tab > a:hover {
+    background-color: rgba(46,105,130,.3);
+}
+
+li.toc_tab > a:hover {
+    color: #2f6982;
+    background-color: white;
+}
+
+.toc_button a {
+    text-align: left;
+}
+
+span.toc_topic_label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+span.toc_topic_top_words {
+    font-size: .9em;
+}
+
+p a.full_topic {
+    color: black;
+    text-decoration: underline;
+}
+
+img.toc_topic_graph {
+    margin-bottom: 5px;
+}
+
+.center-block {
+    float: none;
+}
+
+/* cover art page */
+#links img {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+table.table.art_table td {
+    border: none;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 93px;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 20px;
+    background: -webkit-linear-gradient(#f5f5f5, #ddd);
+    background: -o-linear-gradient(#f5f5f5, #ddd);
+    background: -moz-linear-gradient(#f5f5f5, #ddd);
+    background: linear-gradient(#f5f5f5, #ddd);
+}
+
+@media (max-width: 991px) { /* hide footer on sm/xs */
+    footer {
+        display: none;
+    }
+}
+
+footer a {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* so that .nav-justified ToC tabs break down into two rows on smaller width screens/windows. Buggy on Safari when sizing back up */
+@media (max-width: 1200px) {
+    .nav-tabs.nav-justified > li {
+        display: block;
+        float: left;
+        width: 20%;
+        margin: 0 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-tabs.nav-justified > li {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    li.toc_tab > a {
+        height: auto;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 768px) {
+    .toc_sidebar_column {
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+}
+
+
+#main_navbar {
+    background: -webkit-linear-gradient(-20deg, #2f6982, #3c8bad);
+    background: -o-linear-gradient(-20deg, #2f6982, #3c8bad);
+    background: -moz-linear-gradient(-20deg, #2f6982, #3c8bad);
+    background: linear-gradient(-20deg, #2f6982, #3c8bad);
+    border-radius: 0px;
+    border: none;
+    -webkit-box-shadow:  0px 2px 2px grey;
+    -moz-box-shadow:  0px 2px 2px grey;
+    box-shadow: 0px 2px 2px grey;
+}
+
+#main_navbar > .container {
+    background: none;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: rgba(0,0,0,.1);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: silver;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(0,0,0,.1);
+}
+
+#main_nav_links {
+    margin-top: 40px;
+
+    background-color: rgba(100, 100, 100, .7);
+    border-radius: 2px;
+    font-size: .9em;
+    font-family: Georgia, serif;
+}
+
+#nav_toplevel, #right_tmb_nav_links {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+#nav_main, #right_tmb_nav_links {
+    -webkit-transition: all 1s ease-in .8s;
+    -moz-transition: all 1s ease-in .8s;
+    -o-transition: all 1s ease-in .8s;
+    transition: all 1s ease-in .8s;
+}
+
+#nav_toplevel {
+    min-height: 54px;
+}
+
+
+.navbar .dropdown-menu > li > a:hover {
+  background-color: #32728d;
+  background-image: none;
+}
+
+#subtitle {
+    margin-bottom: 25px;
+}
+
+/* commentaries page */
+#comment_tabs li, #credits_tabs li {
+    background-color: rgba(46,105,130,.1);
+    font-family: Georgia, "Times New Roman", serif;
+    border-radius: 0px;
+    border: none;
+}
+
+#comment_tabs li a, #credits_tabs li a {
+    background-color: rgba(46,105,130,.1);
+    border: none;
+}
+
+#comment_tabs li.active a p, #credits_tabs li.active a p {
+    color: white;
+}
+
+#comment_tabs li.active, #credits_tabs li.active {
+    background-color: rgba(46,105,130,.9);
+}
+
+#comment_tabs li.active a, #credits_tabs li.active a {
+    background-color: rgba(46,105,130,.9);
+    border: none;
+}
+
+#comment_tabs li:hover #credits_tabs li:hover {
+    background-color: rgba(46,105,130,.3);
+    border: none;
+}
+
+#comment_tabs li.comment_tab_div {
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+#credits_tabs {
+    margin-top: 70px;
+}
+
+#about_commentaries_row {
+    margin-bottom: 15px;
+}
+
+hr.hr_black {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+figure.comment_fig {
+    margin-top: 10px;
+}
+
+figure.comment_fig.pull-left {
+    margin-right: 15px;
+}
+
+figure.comment_fig.pull-right {
+    margin-left: 15px;
+}
+
+figure#topic_37_words {
+    margin-bottom: 10px;
+}
+
+div.row.sidlauskas_img_row {
+    margin-bottom: 10px;
+}
+
+/* credits */
+h5.mh_h {
+    font-size: 1.1em;
+    line-height: 1;
+    font-weight: bold;
+}
+
+p.mh_p {
+    line-height: 1.3;
+}
+
+h5.mh_comm_aus {
+    line-height: 1.1em;
+    font-weight: bold;
+}
