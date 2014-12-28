@@ -44,104 +44,170 @@
     },
     {
       "group": "7",
-      "name": "Susan Zeig",
-      "nodeSize": 4,
-      "meta": "Film Club/ Young Filmmakers Foundation"
-    },
-    {
-      "group": "8",
       "name": "DeeDee Halleck",
       "nodeSize": 4,
       "meta": "Lillian Wald Settlment"
     },
     {
-      "group": "9",
+      "group": "8",
       "name": "Cliff Fraiser",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council"
     },
     {
-      "group": "10",
+      "group": "9",
       "name": "Shirely MacLaine",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council"
     },
     {
-      "group": "11",
+      "group": "10",
       "name": "Sidney Poitier",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council"
     },
     {
-      "group": "12",
+      "group": "11",
       "name": "Michael Mayer",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council"
     },
     {
-      "group": "13",
+      "group": "12",
       "name": "John Ryan",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council"
     },
     {
-      "group": "14",
+      "group": "13",
       "name": "James Taylor",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "15",
+      "group": "14",
       "name": "Eric Werner",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "16",
+      "group": "15",
       "name": "Richard Issacs",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "17",
+      "group": "16",
       "name": "Oshun Mugwana",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "18",
+      "group": "17",
       "name": "John Bowman",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "19",
+      "group": "18",
       "name": "Margaret Caples",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "20",
+      "group": "19",
       "name": "Tamara LaVille",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "21",
+      "group": "20",
       "name": "Ozzie Hawkins",
       "nodeSize": 4,
       "meta": "Community Film Workshop Council of Chicago"
     },
     {
-      "group": "22",
+      "group": "21",
       "name": "Yvonne Anderson",
       "nodeSize": 4,
       "meta": "Yellowball Workshop"
+    },
+    {
+      "group": "22",
+      "name": "Flora Hunter",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "23",
+      "name": "Gretel King",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "24",
+      "name": "Rosalind King",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "25",
+      "name": "Connie Martin",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "26",
+      "name": "Bonnie Wilkins",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "27",
+      "name": "Bay Scott",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "28",
+      "name": "Cathy Walter",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "29",
+      "name": "Michele Jackson",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "30",
+      "name": "Flo Habruck",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "31",
+      "name": "Ted Glass",
+      "nodeSize": 4,
+      "meta": "Henry Street/Movie Club"
+    },
+    {
+      "group": "32",
+      "name": "Paul Mara",
+      "nodeSize": 4,
+      "meta": "Middletown Girls Club"
+    },
+    {
+      "group": "33",
+      "name": "Denise Zacardi ",
+      "nodeSize": 4,
+      "meta": "Community Film Workshop Council of Chicago"
     }
   ],
   "links": [
     {
-      "source": 8,
+      "source": 7,
       "target": 0,
       "value": 4
     },
@@ -187,7 +253,7 @@
     },
     {
       "source": 2,
-      "target": 8,
+      "target": 7,
       "value": 4
     },
     {
@@ -196,23 +262,108 @@
       "value": 4
     },
     {
-      "source": 8,
-      "target": 22,
+      "source": 4,
+      "target": 31,
       "value": 4
     },
     {
-      "source": 8,
+      "source": 7,
+      "target": 31,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 21,
+      "value": 4
+    },
+    {
+      "source": 7,
       "target": 4,
       "value": 4
     },
     {
-      "source": 9,
+      "source": 7,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 32,
+      "value": 4
+    },
+    {
+      "source": 8,
       "target": 5,
       "value": 4
     },
     {
-      "source": 9,
+      "source": 8,
+      "target": 9,
+      "value": 4
+    },
+    {
+      "source": 8,
       "target": 10,
+      "value": 4
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "value": 4
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "value": 4
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "value": 4
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "value": 4
+    },
+    {
+      "source": 9,
+      "target": 12,
       "value": 4
     },
     {
@@ -221,48 +372,8 @@
       "value": 4
     },
     {
-      "source": 9,
-      "target": 12,
-      "value": 4
-    },
-    {
-      "source": 9,
-      "target": 13,
-      "value": 4
-    },
-    {
-      "source": 11,
-      "target": 10,
-      "value": 4
-    },
-    {
-      "source": 11,
-      "target": 13,
-      "value": 4
-    },
-    {
       "source": 10,
-      "target": 13,
-      "value": 4
-    },
-    {
-      "source": 10,
-      "target": 12,
-      "value": 4
-    },
-    {
-      "source": 11,
-      "target": 12,
-      "value": 4
-    },
-    {
-      "source": 5,
-      "target": 12,
-      "value": 4
-    },
-    {
-      "source": 5,
-      "target": 13,
+      "target": 11,
       "value": 4
     },
     {
@@ -272,12 +383,82 @@
     },
     {
       "source": 5,
+      "target": 12,
+      "value": 4
+    },
+    {
+      "source": 5,
       "target": 10,
       "value": 4
     },
     {
-      "source": 12,
+      "source": 5,
+      "target": 9,
+      "value": 4
+    },
+    {
+      "source": 11,
+      "target": 12,
+      "value": 4
+    },
+    {
+      "source": 13,
+      "target": 18,
+      "value": 4
+    },
+    {
+      "source": 8,
+      "target": 18,
+      "value": 4
+    },
+    {
+      "source": 8,
       "target": 13,
+      "value": 4
+    },
+    {
+      "source": 18,
+      "target": 33,
+      "value": 4
+    },
+    {
+      "source": 13,
+      "target": 33,
+      "value": 4
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "value": 4
+    },
+    {
+      "source": 15,
+      "target": 16,
+      "value": 4
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "value": 4
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "value": 4
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "value": 4
+    },
+    {
+      "source": 19,
+      "target": 20,
+      "value": 4
+    },
+    {
+      "source": 20,
+      "target": 14,
       "value": 4
     },
     {
@@ -286,61 +467,16 @@
       "value": 4
     },
     {
-      "source": 9,
-      "target": 19,
+      "source": 15,
+      "target": 20,
       "value": 4
     },
     {
-      "source": 9,
+      "source": 16,
       "target": 14,
       "value": 4
     },
     {
-      "source": 15,
-      "target": 16,
-      "value": 4
-    },
-    {
-      "source": 16,
-      "target": 17,
-      "value": 4
-    },
-    {
-      "source": 17,
-      "target": 18,
-      "value": 4
-    },
-    {
-      "source": 18,
-      "target": 19,
-      "value": 4
-    },
-    {
-      "source": 19,
-      "target": 20,
-      "value": 4
-    },
-    {
-      "source": 20,
-      "target": 21,
-      "value": 4
-    },
-    {
-      "source": 21,
-      "target": 15,
-      "value": 4
-    },
-    {
-      "source": 15,
-      "target": 20,
-      "value": 4
-    },
-    {
-      "source": 16,
-      "target": 21,
-      "value": 4
-    },
-    {
       "source": 17,
       "target": 15,
       "value": 4
@@ -361,8 +497,8 @@
       "value": 4
     },
     {
-      "source": 21,
-      "target": 19,
+      "source": 14,
+      "target": 16,
       "value": 4
     },
     {
@@ -387,7 +523,7 @@
     },
     {
       "source": 19,
-      "target": 21,
+      "target": 14,
       "value": 4
     },
     {
@@ -396,13 +532,13 @@
       "value": 4
     },
     {
-      "source": 21,
-      "target": 16,
+      "source": 14,
+      "target": 20,
       "value": 4
     },
     {
       "source": 15,
-      "target": 21,
+      "target": 14,
       "value": 4
     },
     {
@@ -431,8 +567,8 @@
       "value": 4
     },
     {
-      "source": 21,
-      "target": 20,
+      "source": 14,
+      "target": 17,
       "value": 4
     },
     {
@@ -452,7 +588,7 @@
     },
     {
       "source": 18,
-      "target": 21,
+      "target": 14,
       "value": 4
     },
     {
@@ -466,8 +602,8 @@
       "value": 4
     },
     {
-      "source": 21,
-      "target": 17,
+      "source": 14,
+      "target": 18,
       "value": 4
     },
     {
@@ -482,7 +618,7 @@
     },
     {
       "source": 17,
-      "target": 21,
+      "target": 14,
       "value": 4
     },
     {
@@ -501,38 +637,278 @@
       "value": 4
     },
     {
-      "source": 21,
-      "target": 18,
+      "source": 14,
+      "target": 13,
       "value": 4
     },
     {
       "source": 15,
-      "target": 14,
+      "target": 13,
       "value": 4
     },
     {
       "source": 16,
-      "target": 14,
+      "target": 13,
       "value": 4
     },
     {
       "source": 17,
-      "target": 14,
+      "target": 13,
       "value": 4
     },
     {
-      "source": 18,
-      "target": 14,
+      "source": 19,
+      "target": 13,
       "value": 4
     },
     {
       "source": 20,
-      "target": 14,
+      "target": 13,
       "value": 4
     },
     {
-      "source": 21,
-      "target": 14,
+      "source": 22,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 26,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 27,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 28,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 22,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 26,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 27,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 29,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 22,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 26,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 28,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 29,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 22,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 27,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 28,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 29,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 22,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 26,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 27,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 28,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 29,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 22,
+      "target": 28,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 26,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 27,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 28,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 29,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 22,
+      "target": 29,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 22,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 23,
+      "value": 4
+    },
+    {
+      "source": 26,
+      "target": 24,
+      "value": 4
+    },
+    {
+      "source": 27,
+      "target": 25,
+      "value": 4
+    },
+    {
+      "source": 28,
+      "target": 26,
+      "value": 4
+    },
+    {
+      "source": 29,
+      "target": 27,
       "value": 4
     }
   ]
