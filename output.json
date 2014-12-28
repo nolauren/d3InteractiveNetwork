@@ -182,7 +182,7 @@
     },
     {
       "group": "10",
-      "name": "Flo Habruck",
+      "name": "Flo Hasbruck",
       "nodeSize": 4,
       "meta": "Middletown Girls Club"
     },
@@ -279,6 +279,11 @@
     {
       "source": 7,
       "target": 4,
+      "value": 4
+    },
+    {
+      "source": 7,
+      "target": 30,
       "value": 4
     },
     {
@@ -702,6 +707,16 @@
       "value": 4
     },
     {
+      "source": 29,
+      "target": 30,
+      "value": 4
+    },
+    {
+      "source": 30,
+      "target": 22,
+      "value": 4
+    },
+    {
       "source": 22,
       "target": 24,
       "value": 4
@@ -732,8 +747,18 @@
       "value": 4
     },
     {
+      "source": 28,
+      "target": 30,
+      "value": 4
+    },
+    {
       "source": 29,
       "target": 22,
+      "value": 4
+    },
+    {
+      "source": 30,
+      "target": 23,
       "value": 4
     },
     {
@@ -762,6 +787,11 @@
       "value": 4
     },
     {
+      "source": 27,
+      "target": 30,
+      "value": 4
+    },
+    {
       "source": 28,
       "target": 22,
       "value": 4
@@ -769,6 +799,11 @@
     {
       "source": 29,
       "target": 23,
+      "value": 4
+    },
+    {
+      "source": 30,
+      "target": 24,
       "value": 4
     },
     {
@@ -792,6 +827,11 @@
       "value": 4
     },
     {
+      "source": 26,
+      "target": 30,
+      "value": 4
+    },
+    {
       "source": 27,
       "target": 22,
       "value": 4
@@ -807,6 +847,11 @@
       "value": 4
     },
     {
+      "source": 30,
+      "target": 25,
+      "value": 4
+    },
+    {
       "source": 22,
       "target": 27,
       "value": 4
@@ -819,6 +864,11 @@
     {
       "source": 24,
       "target": 29,
+      "value": 4
+    },
+    {
+      "source": 25,
+      "target": 30,
       "value": 4
     },
     {
@@ -842,6 +892,11 @@
       "value": 4
     },
     {
+      "source": 30,
+      "target": 26,
+      "value": 4
+    },
+    {
       "source": 22,
       "target": 28,
       "value": 4
@@ -849,6 +904,11 @@
     {
       "source": 23,
       "target": 29,
+      "value": 4
+    },
+    {
+      "source": 24,
+      "target": 30,
       "value": 4
     },
     {
@@ -877,8 +937,18 @@
       "value": 4
     },
     {
+      "source": 30,
+      "target": 27,
+      "value": 4
+    },
+    {
       "source": 22,
       "target": 29,
+      "value": 4
+    },
+    {
+      "source": 23,
+      "target": 30,
       "value": 4
     },
     {
@@ -909,6 +979,11 @@
     {
       "source": 29,
       "target": 27,
+      "value": 4
+    },
+    {
+      "source": 30,
+      "target": 28,
       "value": 4
     }
   ]
